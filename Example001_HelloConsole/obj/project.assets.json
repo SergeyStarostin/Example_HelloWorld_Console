@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\StarostinSV\\.nuget\\packages\\": {}
+    "C:\\Users\\y127908\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StarostinSV\\Desktop\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "projectUniqueName": "D:\\LocalData\\y127908\\Desktop\\GB\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
       "projectName": "Example001_HelloConsole",
-      "projectPath": "C:\\Users\\StarostinSV\\Desktop\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
-      "packagesPath": "C:\\Users\\StarostinSV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StarostinSV\\Desktop\\Examples\\Example001_HelloConsole\\obj\\",
+      "projectPath": "D:\\LocalData\\y127908\\Desktop\\GB\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "packagesPath": "C:\\Users\\y127908\\.nuget\\packages\\",
+      "outputPath": "D:\\LocalData\\y127908\\Desktop\\GB\\Examples\\Example001_HelloConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\StarostinSV\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\y127908\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
