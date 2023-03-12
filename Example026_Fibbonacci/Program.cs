@@ -28,15 +28,21 @@ decimal FibonacciRecursion (int n)  // метод вычисления числ�
     else return FibonacciRecursion(n - 1) + FibonacciRecursion (n - 2);
 }
 
-for (int n = 1; n < 20; n++)
+DateTime dt = DateTime.Now;
+for (int n = 1; n < 30; n++)
 {
     Console.WriteLine($"FibonacciIteration({n}) = {FibonacciIteration(n)} fIte = {fIte}");
     fIte = 0; 
 }
+Console.WriteLine("Время выполнения итеративного метода, в мс");
+Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
 Console.WriteLine();
 
-for (int n = 1; n < 20; n++)
+dt = DateTime.Now;
+for (int n = 1; n < 30; n++)
 {
     Console.WriteLine($"FibonacciRecursion({n}) = {FibonacciRecursion(n)} fRec = {fRec.ToString("### ### ###"), - 15}");
     fRec = 0;
 }
+Console.WriteLine("Время выполнения рекурсивного метода, в мс");
+Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
